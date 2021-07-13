@@ -1,3 +1,3 @@
 # Kokoa Clone Class of 2021
 
-WOW!
+study harder! be yourself...
