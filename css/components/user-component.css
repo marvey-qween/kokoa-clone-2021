@@ -1,0 +1,76 @@
+.user-component {
+  justify-content: space-between;
+}
+
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-conponent__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 27px;
+  margin-right: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.user-component__name {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.user-component__subtitle {
+  margin-top: 7px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-conponent__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+
+.user-conponent__avatar--xs {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.user-component__name--normal {
+  font-weight: 600;
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component:focus,
+.user-component:active {
+  outline: none;
+}
+
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.user-component__column:last-child > div {
+  margin-left: 20px;
+}
+
+.user-component__number {
+  display: flex;
+}
+
+.user-component__number div {
+  margin-left: 5px;
+}
