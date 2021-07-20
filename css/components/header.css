@@ -1,0 +1,40 @@
+.header {
+  margin-top: 20px;
+  padding: var(--horizontal-space);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(171, 193, 209, 0.8);
+}
+
+.settings {
+  background-color: white;
+}
+
+.header-title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.header-column:first-child {
+  width: 33%;
+}
+
+.header-column:nth-child(2) {
+  font-size: 20px;
+  font-weight: 800;
+  width: 33%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.header-column:last-child {
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-column span:last-child {
+  margin-left: 20px;
+}
