@@ -28,7 +28,7 @@
 }
 
 .friends-screen__channel-header {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
   font-weight: 600;
@@ -37,10 +37,32 @@
 
 .user-component__text h4 {
   color: #2f363e;
+  margin-bottom: 5px;
 }
 
 .user-component__text h6 {
   color: rgba(0, 0, 0, 0.5);
+}
+
+.music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 21px;
+  background-color: white;
+  border: 2px solid #5dc57c;
+  border-radius: 13px;
+  padding: 0px 5px;
+  font-size: 12px;
+}
+
+.fa-play {
+  color: #5dc57c;
+  margin-left: 7px;
+}
+
+.music-title {
+  color: #2f363e;
 }
 
 @keyframes hideSplashScreen {
