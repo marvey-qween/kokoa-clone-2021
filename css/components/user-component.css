@@ -1,5 +1,11 @@
 .user-component {
   justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.bottom-border {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
 }
 
 .user-component,
@@ -19,12 +25,13 @@
 .user-component__name {
   font-weight: 700;
   font-size: 22px;
+  color: #2f363e;
 }
 
 .user-component__subtitle {
   margin-top: 7px;
   font-size: 17px;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .user-conponent__avatar--xl {
