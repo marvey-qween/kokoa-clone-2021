@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="css/styles.css" href="screens/chat.css">
+</head>
+
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="header-column">
+            <a href="chats.html"><i class="fas fa-chevron-left fa-lg"></i></a>
+        </div>
+        <div class="header-column">
+            <h1 class="header-title">Avery</h1>
+        </div>
+        <div class="header-column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-chat">
+        <div class="chat__timestamp">
+            Saturday, June 10, 2021
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">Hey Avery, I am your new partner Lotte~</span>
+                    <span class="message__time">22:10</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="kokoaimage/avery.jpg"/>
+            <div class="message-row__content">
+                <span class="message__author">Avery</span>
+                <div class="message__info">
+                    <span class="message__bubble">oh</span>
+                    <span class="message__time">22:30</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="kokoaimage/avery.jpg"/>
+            <div class="message-row__content">
+                <span class="message__author">Avery</span>
+                <div class="message__info">
+                    <span class="message__bubble">hi~ nice to meet you</span>
+                    <span class="message__time">22:30</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">Professor Ursula told us to practice flying skills</span>
+                    <span class="message__time">22:32</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">so I think we should meet tomorrow and practice together!</span>
+                    <span class="message__time">22:32</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="kokoaimage/avery.jpg"/>
+            <div class="message-row__content">
+                <span class="message__author">Avery</span>
+                <div class="message__info">
+                    <span class="message__bubble">oh yes, I totally forgot!</span>
+                    <span class="message__time">22:33</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="kokoaimage/avery.jpg"/>
+            <div class="message-row__content">
+                <span class="message__author">Avery</span>
+                <div class="message__info">
+                    <span class="message__bubble">Thank you for reminding me</span>
+                    <span class="message__time">22:33</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="kokoaimage/avery.jpg"/>
+            <div class="message-row__content">
+                <span class="message__author">Avery</span>
+                <div class="message__info">
+                    <span class="message__bubble">i'm free after 3:00pm tomorrow.</span>
+                    <span class="message__time">22:33</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">Sounds great!</span>
+                    <span class="message__time">22:34</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">then let's meet at the bakery shop.</span>
+                    <span class="message__time">22:34</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="kokoaimage/avery.jpg"/>
+            <div class="message-row__content">
+                <span class="message__author">Avery</span>
+                <div class="message__info">
+                    <span class="message__bubble">ok~</span>
+                    <span class="message__time">22:35</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="kokoaimage/avery.jpg"/>
+            <div class="message-row__content">
+                <span class="message__author">Avery</span>
+                <div class="message__info">
+                    <span class="message__bubble">see ya tmr</span>
+                    <span class="message__time">22:35</span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="far fa-grin fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+    <div id="no-mobile">
+        <span>Your screen is too big.👀</span>
+    </div>
+
+    <div id="landscape">
+        <span>Please tilt your screen.👀</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/660be304b4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
