@@ -2,13 +2,14 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 25px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .icon-row__icon {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 18px;
 }
 
 .icon-row__icon i {
@@ -17,7 +18,7 @@
 
 .icon-row__icon span {
   margin-top: 15px;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .icon-row__icon:nth-child(2) span {
