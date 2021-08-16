@@ -1,15 +1,15 @@
 .badge {
   background-color: tomato;
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   color: white;
   font-weight: 600;
-  font-size: small;
+  font-size: 10px;
 }
 
 .red-circle {
