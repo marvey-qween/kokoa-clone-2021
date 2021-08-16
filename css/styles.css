@@ -21,6 +21,7 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 @import "screens/chats.css";
+@import "screens/shopping.css";
 
 body {
   height: 200vh;
