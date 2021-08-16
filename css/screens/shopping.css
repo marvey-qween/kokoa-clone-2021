@@ -1,0 +1,59 @@
+.shopping-ads {
+  display: flex;
+  background-color: #040205;
+  margin-top: -15px;
+}
+
+.shopping-ads__text {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  position: relative;
+}
+
+.shopping-ads img {
+  height: 180px;
+}
+
+.shopping-ads__event:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 140px;
+  height: 25px;
+  border-radius: 20px;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  margin: 25px 20px 20px 18px;
+}
+
+.shopping-ads__event:last-child {
+  color: white;
+  font-weight: 600;
+  margin-left: 18px;
+  font-size: 18px;
+}
+
+.shopping-ads__event:last-child span:nth-child(2) {
+  color: rgba(255, 255, 255, 0.3);
+  display: block;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.shopping-ads__event:last-child span:nth-child(3) {
+  color: rgba(255, 255, 255, 0.3);
+  display: block;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.icon-small span {
+  font-size: 15px;
+}
+
+.recommendation__column {
+  display: flex;
+}
